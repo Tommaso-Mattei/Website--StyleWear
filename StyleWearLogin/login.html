@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href = "../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./signin.css">
+    <!-- <script src = "./controlloLogin.js" type = "application/javascript"></script> -->
+    <title>StyleWear - Login</title>
+</head>
+<body class = "text-center">
+    <!-- FORM PER INVIARE I DATI A LOGINS E CONFRONTARSI CON IL DATABASE -->
+    <div style="align-self: start; position: fixed;">
+        <a href="../home2.php" style="color:white; font-size: larger; padding-left: 20px;"> Home </a>
+    </div>
+    
+    <form name="loginForm" method="POST" action=".\loginS.php" class = "form-signin m-auto">
+        <img class = "mb-2" src = "./LoginIcon.jpg" width = "100px">
+        <h1 class = "mb-3"> Login</h1>
+        Email
+        <input type="email" name ="inputEmail" maxlength="30" size = "30"placeholder="E-mail" class = "form-control" required autofocus>
+        Password
+        <input type="password" name ="inputPassword" maxlength="30" size = "30"placeholder="Password" class = "form-control" required >
+        <!-- <input type="checkbox" name="Remember" id="rmb">
+        <label for="rmb" > Ricordati di me </label> <br>  -->
+        <button type="submit" class = "btn btn-primary" style="margin-top: 15px;"> Accedi </button>
+        <hr>
+        Non sei registrato? <a href = "../StyleWearRegistrazione/registrazione.html" title='Registrazione'>  Registrati!</a>
+    </form>
+</body>
+</html>

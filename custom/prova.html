@@ -1,0 +1,59 @@
+
+<style> 
+    @media (max-width: 575.98px) { 
+        /* ordina i blocchi in colonna. Se per dimensioni maggiori specificassi sul .bodyflex-direction: row,
+           questo aggiornamento non lo sovrascriverebbe (a meno di usare !important) */
+        .body {
+            flex-direction: column;     
+        }
+        .figlio {
+            height: 50%;
+        }
+    }
+
+    .body {
+        display: flex;      
+    }
+    .figlio {
+        flex: 1;
+        height: 100%;
+        background-color: rgb(60, 60, 182);
+        border: 8px ridge rgb(60, 60, 242);
+        border-radius: 1rem;
+        /* per centrare il testo all'interno */
+        position: relative;
+    }
+    .figlio > div > h1 {
+        color: white;
+        font-weight: bolder;
+
+        /* centratura testo dinamica */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* ------------------------- */
+    }
+
+    .figlio:hover {
+        background-color: rgb(88, 88, 242);
+        border: 8px ridge rgb(60, 60, 182);
+        transition: 0.25s;
+    }
+    .figlio:active{
+        background-color: rgb(60, 60, 182);
+        box-shadow: 0px 5px 3px  black;
+        transform: scale(.97);
+    }
+    
+</style>
+<!-- BOTTONI VERSO LE DUE FUNZIONALITA' PRINCIPALI: CUSTOM DI UNA PROPRIA MAGLIETTA O UN TEMPLATE -->
+<a class="figlio" href="?page=customizeOwn">
+    <div class="text-center">
+        <h1>Personalizza un tuo vestito</h1>
+    </div>
+</a> 
+<a class="figlio" href="?page=customizeOther">
+<div class="text-center">
+    <h1>Crea la tua maglietta personalizzata</h1>
+</div></a>
