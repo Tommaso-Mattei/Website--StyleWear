@@ -21,5 +21,4 @@ Section to customize your own clothes
 
 Sections to customize template clothes
 ![Screenshot](WebsiteImages/CustomizeOther.png)
-
-![Screenshot](WebsiteImages/CustomizeOther2.png)
+![Screenshot](WebsiteImages/Try.png)
