@@ -62,7 +62,7 @@
 
     .Product_img{
         grid-area: img;
-        height: 70%;
+        height: 55%;
         width: 60%;
         margin-left: 8px;
         margin-top: 4px;
