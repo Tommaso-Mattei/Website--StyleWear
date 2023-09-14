@@ -7,4 +7,19 @@ The project was created for the exam of "Languages and Technologies for the Web"
 Homepage of the website (With more shirts to buy in the shop)
 ![Screenshot](WebsiteImages/Homepage.png)
 
+Registration page
+![Screenshot](WebsiteImages/Register.png)
 
+Profile page
+![Screenshot](WebsiteImages/Profilo.png)
+
+Cart page
+![Screenshot](WebsiteImages/TrueShop.png)
+
+Section to customize your own clothes
+![Screenshot](WebsiteImages/CustomizeOwn.png)
+
+Sections to customize template clothes
+![Screenshot](WebsiteImages/CustomizeOther.png)
+
+![Screenshot](WebsiteImages/CustomizeOther2.png)
